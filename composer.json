@@ -1,15 +1,11 @@
 {
-    "name": "lmjnels/caffeinated-modules",
-    "description": "Laravel Modules",
-    "keywords": ["modules", "laravel", "caffeinated"],
+    "name": "cmd-shades/domain-modules",
+    "description": "Laravel Domain Modules",
+    "keywords": ["domain","modules", "laravel"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Shea Lewis",
-            "email": "shea.lewis89@gmail.com"
-        },
-        {
-            "name": "Liam Nelson",
+            "name": "Command Shades",
             "email": "sincerusx@yahoo.com"
         }
     ],
@@ -44,7 +40,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Caffeinated\\Modules\\ModulesServiceProvider"
+                "Caffeinated\\Modules\\DomainModuleServiceProvider"
             ],
             "aliases": {
                 "Module": "Caffeinated\\Modules\\Facades\\Module"

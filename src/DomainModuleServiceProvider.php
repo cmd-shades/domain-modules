@@ -8,7 +8,7 @@ use Caffeinated\Modules\Providers\BladeServiceProvider;
 use Caffeinated\Modules\Providers\ConsoleServiceProvider;
 use Caffeinated\Modules\Providers\GeneratorServiceProvider;
 
-class ModulesServiceProvider extends ServiceProvider
+class DomainModuleServiceProvider extends ServiceProvider
 {
     /**
      * @var bool Indicates if loading of the provider is deferred.
